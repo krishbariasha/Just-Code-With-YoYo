@@ -28,6 +28,10 @@ Sentence = 'So this is going to be the very long\
     more comfortable cause we follow a trick of back\
     slash in it.'
     
+calculations = 13123 + 21414 + 34234 / 32423 **23 \
+    /5668 -56565    
+    
 print(tuple)
 print(list)
 print(Sentence)
+print(calculations)
