@@ -13,6 +13,8 @@ while current_attempt < MAX_ATTEMPT:
     if user_guess == random_number:
         print('You Won !')
         break
+    elif user_guess > random_number:
+        print('You have entered a number out of range')
     else:
         current_attempt += 1
 else:
